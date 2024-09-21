@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    display: flex;
+    background-color: #333333;
+    width: 100%;
+    padding: 50px 0;    
+    justify-content: flex-end; /* Alinha todo o conteúdo do header à direita */
+}
+
+nav {
+    display: flex;
+    background-color: #333333;
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+nav a {
+    color: rgb(41, 171, 219);
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 30px; /* Espaçamento interno dos links */
+    margin-right: 50px;
+
+}
+
+nav a:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: black; /* Muda a cor do texto ao passar o mouse */
+    text-decoration: underline;
+}
+
+.bannerprincipal{
+    display: flex;
+}
+
+.primeiradiv{
+    background-color: blueviolet;
+    padding: 80px;
+    width: 50%;
+    text-align: center;
+}
+
+.frase{
+    line-height: 1.4;
+    position: relative;
+    top: 12px;
+}
+.frase a:link{
+    color:darkmagenta;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+}
+
+.frase a:hover{
+    background-color: blue;
+    transition: 0.3;
+}
+
+.sg{
+    font-style: italic;
+}
+
+.blocotexto{
+    line-height: 1.5;
+}
+
+
+
+.foto{
+    background-color: aqua;
+    display: inline-block;
+    width: 50%;
+}
+
+.foto img{
+    height: 100%;
+    width: 700px;
+}
+.resumodosserviços{
+    padding: 80px 0 0;
+    background-color: chartreuse;
+}
+
+.servicos{
+    
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 43%;
+    
+    border-radius: 20px;
+}
+
+.servicos h1{
+    position: relative;
+    top: 15px;
+}
+
+
+.content1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    top: -70px;
+}
+
+.icone1 i, p, .icone2 i, p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.content2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+}
+
+.icone3 i, p, .icone4 i, p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.icone1 i, .icone2 i, .icone3 i, .icone4 i {
+    font-size: 50px;
+}
+
+.p1,.p2,.p3,.p4{
+    font-weight: bold;
+
+}
+
+.teste{
+    padding: 80px;
+    background-color: darkred;
+}
+
+.serv p{
+    border: 2px solid;
+    width: fit-content;
+    padding: 10px;
+}
+
+.serv p:hover{
+    background-color: crimson;
+}
